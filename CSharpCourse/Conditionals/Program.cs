@@ -34,3 +34,18 @@ else
     Console.WriteLine("Number3 is not 10 or 20");
 }
 
+// switch Bloğu
+var number4 = 20;
+
+switch(number4)
+{
+    case 10:
+        Console.WriteLine("Number is 10!");
+        break;
+    case 20:
+        Console.WriteLine("Number is 20!");
+        break;
+    case 30:
+        Console.WriteLine("Number is 30!");
+        break;
+}
