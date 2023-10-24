@@ -40,12 +40,28 @@ var number4 = 20;
 switch(number4)
 {
     case 10:
-        Console.WriteLine("Number is 10!");
+        Console.WriteLine("Number4 is 10!");
         break;
     case 20:
-        Console.WriteLine("Number is 20!");
+        Console.WriteLine("Number4 is 20!");
         break;
     case 30:
-        Console.WriteLine("Number is 30!");
+        Console.WriteLine("Number4 is 30!");
         break;
+}
+
+// Çoklu Şart Bloğu
+var number5 = 150;
+
+if (number5 >= 0 && number5 <= 100)
+{
+    Console.WriteLine("Number5 is between 0-100");
+}
+else if (number5 > 100 && number5 <= 200)
+{
+    Console.WriteLine("Number5 is between 100-200");
+}
+else if (number5 > 200 || number5 < 0) 
+{
+    Console.WriteLine("Number5 is less than 0 or greater than 200");
 }
