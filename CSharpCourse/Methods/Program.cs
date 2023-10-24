@@ -27,6 +27,9 @@ Console.WriteLine(number3);
 Console.WriteLine(Multiply(2,4));
 Console.WriteLine(Multiply2(2, 4, 5));
 
+//Metot7, Params Keyword
+Console.WriteLine(Add6(1,2,3,4,5,6));
+
 
 
 // Metot1
@@ -72,4 +75,11 @@ static int Multiply(int number1, int number2)
 static int Multiply2(int number1, int number2, int number3)
 {
     return number1 * number2 * number3;
+}
+
+
+// Metot7, Params Keyword
+static int Add6(params int[] numbers)
+{
+    return numbers.Sum();
 }
