@@ -65,3 +65,18 @@ else if (number5 > 200 || number5 < 0)
 {
     Console.WriteLine("Number5 is less than 0 or greater than 200");
 }
+
+// İç İçe if Bloğu
+var number6 = 20;
+
+if (number6 <50)
+{
+    if(number6 >= 0 && number6 <= 20)
+    {
+        Console.WriteLine("Number6 is beetween 0-20");
+    }
+    else
+    {
+        Console.WriteLine("Number6 is between 21-50");
+    }
+}
