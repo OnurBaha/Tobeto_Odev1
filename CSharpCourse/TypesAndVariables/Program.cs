@@ -8,6 +8,8 @@ bool condition = false;
 char character = 'A';
 double number5 = 10.4;
 decimal number6 = 21.7m;
+var number7 = 10;
+number7 = 'A';
 
 
 Console.WriteLine("Number is {0}", number1);
@@ -17,6 +19,7 @@ Console.WriteLine("Number is {0}", number4);
 Console.WriteLine("Character is {0}", (int)character);
 Console.WriteLine("Number is {0}", number5);
 Console.WriteLine("Number is {0}", number6);
+Console.WriteLine("Number is {0}", number7);
 Console.WriteLine((int)Days.Friday);
 
 enum Days
