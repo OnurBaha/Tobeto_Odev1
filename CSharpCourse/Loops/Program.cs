@@ -23,3 +23,11 @@ do
     Console.WriteLine(number2);
     number2--;
 }while(number2>=11);
+
+
+// ForEach Döngüsü
+string[] students = new string[3] { "Engin", "Derin", "Salih" };
+foreach(var student in students)
+{
+    Console.WriteLine(student);
+}
