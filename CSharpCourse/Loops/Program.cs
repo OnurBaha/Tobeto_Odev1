@@ -14,3 +14,12 @@ while(number>=0)
     number--;
 }
 Console.WriteLine("Now number is {0}", number);
+
+
+// Do While Döngüsü
+int number2 = 10;
+do
+{
+    Console.WriteLine(number2);
+    number2--;
+}while(number2>=11);
