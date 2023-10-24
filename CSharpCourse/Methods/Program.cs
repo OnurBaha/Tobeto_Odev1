@@ -23,6 +23,9 @@ var result4 = Add5(out number3, number4);
 Console.WriteLine(result4);
 Console.WriteLine(number3);
 
+//Metot6, Method Overloading
+Console.WriteLine(Multiply(2,4));
+Console.WriteLine(Multiply2(2, 4, 5));
 
 
 
@@ -59,4 +62,14 @@ static int Add5(out int number3, int number4)
 {
     number3 = 30;
     return number3 + number4;
+}
+
+//Metot6, Method Overloading
+static int Multiply(int number1, int number2)
+{
+    return number1 * number2;
+}
+static int Multiply2(int number1, int number2, int number3)
+{
+    return number1 * number2 * number3;
 }
