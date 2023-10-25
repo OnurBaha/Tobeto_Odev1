@@ -1,4 +1,5 @@
-﻿Person[] persons = new Person[3]
+﻿//Inheritance 
+Person[] persons = new Person[3]
 {
     new Customer
     {
