@@ -1,4 +1,12 @@
-﻿PersonManager manager = new PersonManager();
+﻿using Interfaces;
+
+CustomerManager customerManager = new CustomerManager();
+customerManager.Add(new OracleCustomerDal());
+
+
+
+
+PersonManager manager = new PersonManager();
 Customer customer = new Customer
 {
     Id = 1,
