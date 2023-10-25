@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{AB896FE8-AFBE-4113-A784-01767F89F4E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{FC503672-CAE0-4EB2-850A-A1CE4C6186B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{FC503672-CAE0-4EB2-850A-A1CE4C6186B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{0F1DF949-A906-4F84-AE84-0DB72E830D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{0F1DF949-A906-4F84-AE84-0DB72E830D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{1FE7FF3C-1997-48DD-8398-0C5D1E2F17C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{1FE7FF3C-1997-48DD-8398-0C5D1E2F17C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{CFDE5E47-173B-4628-86AB-D96E33DCD19F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1FE7FF3C-1997-48DD-8398-0C5D1E2F17C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE7FF3C-1997-48DD-8398-0C5D1E2F17C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE7FF3C-1997-48DD-8398-0C5D1E2F17C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDE5E47-173B-4628-86AB-D96E33DCD19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDE5E47-173B-4628-86AB-D96E33DCD19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDE5E47-173B-4628-86AB-D96E33DCD19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDE5E47-173B-4628-86AB-D96E33DCD19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
