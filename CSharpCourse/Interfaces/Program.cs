@@ -1,8 +1,22 @@
 ﻿using Interfaces;
 
+//Interface 1
 CustomerManager customerManager = new CustomerManager();
 customerManager.Add(new OracleCustomerDal());
 
+
+//Interface 2 
+ICostumerDal[] customerDals = new ICostumerDal[3]
+{
+    new SqlServerCustomerDal(),
+    new OracleCustomerDal(),
+    new MySqlCustomerDal(),
+};
+
+foreach (var customerDal in customerDals)
+{
+    customerDal.Add();
+}
 
 
 
